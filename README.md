@@ -1,20 +1,37 @@
 
 # Libft (bibliothèque de fonctions)
 
+
+- [Description](#description)
+- [Structure du projet](#structure-du-projet)
+  * [Fichiers .c](#fichiers-c)
+  * [.h (En-tête)](#h--en-t-te-)
+  * [Makefile](#makefile)
+- [Les fonctions](#les-fonctions)
+  * [Fonctions de `<ctype.h>`](#fonctions-de---ctypeh--)
+  * [Fonctions de `<string.h>`](#fonctions-de---stringh--)
+  * [Fonctions de `<stdlib.h>`](#fonctions-de---stdlibh--)
+  * [Fonctions non standard](#fonctions-non-standard)
+- [Utilisation de libft](#utilisation-de-libft)
+  * [Pre-requis](#pre-requis)
+  * [Utilisation](#utilisation)
+- [Test](#test)
+
+
 ## Description
 
 le but de ce projet est de réécrire des fonctions qui existe en C, pour les comprendre, revoir les bases de C et travailler sont algo
 
-### Structure du projet
-#### Fichiers .c
+## Structure du projet
+### Fichiers .c
 
 Où toutes vos fonctions seront écrites.
 
-#### .h (En-tête)
+### .h (En-tête)
 
 Inclure `#include "libft.h"` dans tous les fichiers.c afin d’avoir aux fonctions incluse (custom, lib C ou autres) partouT.
 
-#### Makefile
+### Makefile
 
 Makefile, fichier pour compiler le projet.
 
