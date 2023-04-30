@@ -9,25 +9,20 @@ OBJ = $(SRC:.c=.o)
 
 all: $(NAME)
 
-#generer le fichier principale de l alib (.a)
 $(NAME):
 	$(CC) $(CFLAGS) -c $(SRC)
 	ar rc $(NAME) $(OBJ)
 
-#compiler la lib (pour tester ou autre), necessite un main
 compil:
 	$(CC) $(CFLAGS) $(ORIGIN) $(SRC) -o $(EXEC)
 	./$(EXEC)
 
-#supprimer les fichier .o
 clean:
 	rm -rf *.o
 
-#supprimer les fichier .a, .o et l'executable
 fclean : clean
 	rm -rf $(NAME) $(EXEC)
 
 re: fclean all
 
-#securisation du Makefile : indique au compilateurs les regles contenue dans le fichier
 .PHONY: all clean fclean re
