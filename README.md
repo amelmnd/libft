@@ -20,12 +20,13 @@
 
 ## Description
 
-le but de ce projet est de réécrire des fonctions qui existe en C, pour les comprendre, revoir les bases de C et travailler sont algo
+Le but de ce projet est de réécrire des fonctions qui existe en C, pour les comprendre, revoir les bases de C et travailler sont algorithmie.
+Ce projet servira de bibliothèque de fonctions de base à tous les projets suivants.
 
 ## Structure du projet
 ### Fichiers .c
 
-Où toutes vos fonctions seront écrites.
+Où toutes les fonctions seront écrites.
 
 ### .h (En-tête)
 
@@ -34,6 +35,16 @@ Inclure `#include "libft.h"` dans tous les fichiers.c afin d’avoir aux fonctio
 ### Makefile
 
 Makefile, fichier pour compiler le projet.
+
+- Créer de la lib pour l'utiliser dans un projet
+```shell
+make
+```
+
+- Compiler la lib et l'exécuter pour tester une fonction, nécessite un main (présent ici)
+```shell
+make compil
+```
 
 ## Les fonctions
 

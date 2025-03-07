@@ -6,7 +6,7 @@
 /*   By: amennad <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/29 16:59:46 by amennad           #+#    #+#             */
-/*   Updated: 2023/04/12 15:01:20 by amennad          ###   ########.fr       */
+/*   Updated: 2025/03/07 15:54:10 by amennad          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,7 @@
 
 int	main(void)
 {
-	ft_split("tic tac", ' ');
+	// Test here ft_strjoin
+	printf("result ft_strlcat: %s\n", ft_strjoin("cou", "cou"));
 	return (0);
 }
